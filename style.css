@@ -13,7 +13,7 @@ body {
 }
 
 .hidden {
-  visability: hidden;
+  visibility: hidden;
   pointer-events: none;
 }
 
