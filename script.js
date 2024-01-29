@@ -1,13 +1,15 @@
 document.getElementById("sim").addEventListener("click", function() {
   document.getElementById("question2").classList.remove("hidden");
+  document.getElementById("question1").classList.add("hidden");
 });
 
 document.getElementById("nao").addEventListener("click", function() {
-  alert("Tá me tirando? Vou te levar pras ideias.");
+  alert("Tá me tirando? vou te levar pras ideias.");
 });
 
 document.getElementById("sim2").addEventListener("click", function() {
   document.getElementById("question3").classList.remove("hidden");
+  document.getElementById("question2").classList.add("hidden");
 });
 
 document.getElementById("nao2").addEventListener("click", function() {
@@ -16,6 +18,7 @@ document.getElementById("nao2").addEventListener("click", function() {
 
 document.getElementById("sim3").addEventListener("click", function() {
   document.getElementById("final").classList.remove("hidden");
+  document.getElementById("question3").classList.add("hidden");
 });
 
 document.getElementById("nao3").addEventListener("mouseover", function(event) {
@@ -27,4 +30,4 @@ document.getElementById("nao3").addEventListener("mouseover", function(event) {
   button.style.top = randomY + "px";
   button.style.left = randomX + "px";
 });
-                                                 
+    
