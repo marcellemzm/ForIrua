@@ -3,21 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quer namorar comigo?</title>
+  <title>Responder Perguntas</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Quer namorar comigo?</h1>
+    <h1>Você está disposto a responder algumas perguntas?</h1>
     <div class="buttons">
       <button id="sim">Sim</button>
       <button id="nao">Não</button>
     </div>
   </div>
-  <div id="root"></div>
 
-  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <div class="hidden" id="question2">
+    <h1>Tem certeza?</h1>
+    <div class="buttons">
+      <button id="sim2">Sim</button>
+      <button id="nao2">Não</button>
+    </div>
+  </div>
+
+  <div class="hidden" id="question3">
+    <h1>Namora comigo? 💍</h1>
+    <div class="buttons">
+      <button id="sim3">Sim</button>
+      <button id="nao3">Não</button>
+    </div>
+  </div>
+
+  <div class="hidden" id="final">
+    <h1>Relaxa baby, é brincadeira! Tudo no tempo de Deus?</h1>
+    <p><i>“Quando for a hora certa, eu, o Senhor, farei acontecer” - Isaías 60:22</i></p>
+    <img src="health.png" alt="Imagem" />
+  </div>
+
   <script src="script.js" type="module"></script>
 </body>
 </html>
