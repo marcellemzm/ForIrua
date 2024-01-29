@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 34px;
 }
 
 .buttons {
@@ -23,13 +23,13 @@ h1 {
 button {
   background-color: #FFFFFF;
   color: #8B0000;
-  font-size: 18px;
+  font-size: 28px;
   font-weight: bold;
-  padding: 10px 20px;
+  padding: 20px 30px;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   cursor: pointer;
-  margin: 10px;
+  margin: 20px;
 }
 
 button:hover {
