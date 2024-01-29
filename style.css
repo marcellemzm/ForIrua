@@ -9,12 +9,10 @@ body {
 .container {
   max-width: 600px;
   margin: 0 auto;
-  transition: visibility 0.5s ease;
 }
 
 .hidden {
-  visibility: hidden;
-  pointer-events: none;
+  display: none;
 }
 
 h1 {
