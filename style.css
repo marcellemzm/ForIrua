@@ -16,6 +16,12 @@ h1 {
   font-family: Olivier, sans-serif;
 }
 
+a {
+  font-size: 18px;
+  font-family: Olivier, sans-serif;
+
+}
+
 .buttons {
   display: flex;
   justify-content: center;
