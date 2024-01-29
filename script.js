@@ -1,15 +1,24 @@
-import ReactDOM from 'react-dom';
-import React from 'react';
-import Resposta from './App.js';
-
 document.getElementById("sim").addEventListener("click", function() {
-  ReactDOM.render(
-    <Resposta phrase="Relaxa baby, é brincadeira! Tudo no tempo de Deus! (Mas não esquece de orar)" />,
-    document.getElementById('root')
-  );
+  document.getElementById("question2").classList.remove("hidden");
 });
 
-document.getElementById("nao").addEventListener("mouseover", function(event) {
+document.getElementById("nao").addEventListener("click", function() {
+  alert("Tá me tirando? Vou te levar pras ideias.");
+});
+
+document.getElementById("sim2").addEventListener("click", function() {
+  document.getElementById("question3").classList.remove("hidden");
+});
+
+document.getElementById("nao2").addEventListener("click", function() {
+  alert("Tá me tirando? Vou te levar pras ideias.");
+});
+
+document.getElementById("sim3").addEventListener("click", function() {
+  document.getElementById("final").classList.remove("hidden");
+});
+
+document.getElementById("nao3").addEventListener("mouseover", function(event) {
   var button = event.target;
   var rect = button.getBoundingClientRect();
   var randomX = Math.floor(Math.random() * (window.innerWidth - rect.width));
@@ -18,3 +27,4 @@ document.getElementById("nao").addEventListener("mouseover", function(event) {
   button.style.top = randomY + "px";
   button.style.left = randomX + "px";
 });
+                                                 
