@@ -11,11 +11,6 @@ body {
   margin: 0 auto;
 }
 
-.hidden {
-  display: none;
-}
-
-
 h1 {
   font-size: 34px;
   font-family: 'Times New Roman', Times, serif;
@@ -41,6 +36,10 @@ button {
 button:hover {
   background-color: #FFD700;
   color: #8B0000;
+}
+
+.hidden {
+  display: none;
 }
 
 a {
