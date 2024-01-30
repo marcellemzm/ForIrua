@@ -46,11 +46,11 @@ a {
   color: #FE706A; 
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #FF6347;
 }
 
 p i {
