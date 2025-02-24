@@ -78,3 +78,20 @@ p i {
   display: block; /* Garante que a imagem não fique inline */
   margin: 20px auto; /* Centraliza a imagem na tela */
 }
+
+/* Estiliza a imagem como botão e aplica animação */
+#letterButton {
+  width: 150px; /* Ajuste conforme necessário */
+  cursor: pointer;
+  animation: pulse 1.5s infinite alternate; /* Efeito de pulsação */
+}
+
+/* Animação de pulsação */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
