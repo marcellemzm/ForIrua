@@ -61,4 +61,8 @@ p i {
   margin-top: 20px;
 }
 
+#final img {
+  width: 200px; /* Defina o tamanho desejado */
+  height: auto; /* Mantém a proporção da imagem */
+}
 
