@@ -13,7 +13,6 @@ body {
 
 h1 {
   font-size: 34px;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .buttons {
@@ -38,68 +37,19 @@ button:hover {
   color: #8B0000;
 }
 
-.hidden {
-  display: none;
-}
-
 a {
-  color: #FE706A; 
-  font-family: 'Times New Roman', Times, serif;
+  color: #FE706A;
   font-size: 24px;
   text-decoration: underline;
 }
 
-a:hover {
-  color: #FF6347;
-}
-
-p i {
-  font-size: 18px;
-}
-
-.container > h1 {
-  margin-top: 20px;
-}
-
-#final img {
-  width: 300px; /* Defina o tamanho desejado */
-  height:200px; /* Mantém a proporção da imagem */
-}
-
-#final {
-  max-height: 80vh; /* Limita a altura a 80% da tela */
-  overflow-y: auto; /* Adiciona rolagem vertical */
-  padding: 20px; /* Adiciona espaço interno para melhor visualização */
-}
-
-#final img:last-of-type {
-  width: 150px; /* Ajuste o tamanho conforme necessário */
-  height: auto; /* Mantém a proporção */
-  display: block; /* Garante que a imagem não fique inline */
-  margin: 20px auto; /* Centraliza a imagem na tela */
-}
-
-#letterPage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Garante que ocupe toda a tela */
-}
-
 #letterButton {
-  width: 150px; /* Ajuste conforme necessário */
+  width: 150px;
   cursor: pointer;
-  animation: pulse 1.5s infinite alternate; /* Efeito de pulsação */
+  animation: pulse 1.5s infinite alternate;
 }
 
-
-/* Animação de pulsação */
 @keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.2);
-  }
+  0% { transform: scale(1); }
+  100% { transform: scale(1.2); }
 }
