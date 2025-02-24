@@ -79,12 +79,20 @@ p i {
   margin: 20px auto; /* Centraliza a imagem na tela */
 }
 
-/* Estiliza a imagem como botão e aplica animação */
+#letterPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Garante que ocupe toda a tela */
+}
+
 #letterButton {
   width: 150px; /* Ajuste conforme necessário */
   cursor: pointer;
   animation: pulse 1.5s infinite alternate; /* Efeito de pulsação */
 }
+
 
 /* Animação de pulsação */
 @keyframes pulse {
