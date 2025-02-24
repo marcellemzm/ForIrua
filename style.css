@@ -62,7 +62,7 @@ p i {
 }
 
 #final img {
-  width: 100px; /* Defina o tamanho desejado */
-  height: 100px; /* Mantém a proporção da imagem */
+  width: 300px; /* Defina o tamanho desejado */
+  height:200px; /* Mantém a proporção da imagem */
 }
 
