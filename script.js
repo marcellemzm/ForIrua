@@ -31,3 +31,7 @@ document.getElementById("nao3").addEventListener("mouseover", function(event) {
   button.style.left = randomX + "px";
 });
     
+document.getElementById("letterButton").addEventListener("click", function() {
+  document.getElementById("letterPage").classList.add("hidden"); // Esconde a página da carta
+  document.getElementById("final").classList.remove("hidden"); // Mostra a última página
+});
