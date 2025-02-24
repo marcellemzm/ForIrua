@@ -72,3 +72,9 @@ p i {
   padding: 20px; /* Adiciona espaço interno para melhor visualização */
 }
 
+#final img:last-of-type {
+  width: 150px; /* Ajuste o tamanho conforme necessário */
+  height: auto; /* Mantém a proporção */
+  display: block; /* Garante que a imagem não fique inline */
+  margin: 20px auto; /* Centraliza a imagem na tela */
+}
