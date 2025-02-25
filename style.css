@@ -21,6 +21,11 @@ h1 {
   font-size: 34px;
 }
 
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+  
 .buttons {
   display: flex;
   justify-content: center;
